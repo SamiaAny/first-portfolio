@@ -4,12 +4,13 @@ body{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner{
    
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    
 }
 h1{
     font-size: 50px;
@@ -30,6 +31,7 @@ h1{
 }
 .image-part{
     width: 100%;
+    margin-top: 30px;
 }
 .link-button{
     background-image: linear-gradient(45deg, salmon, rgb(243, 85, 57));
@@ -43,4 +45,36 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.box{
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 2px 5px 20px  gray;
+}
+.box h1{
+    font-size: 40px;
+}
+.fullstack-part{
+    border-radius: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#baby-part{
+    border-radius: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(to bottom,blue,rgb(78, 229, 240));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
